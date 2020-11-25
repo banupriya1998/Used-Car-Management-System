@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Seller page</title>
+        <style>
+            .seller
+            {
+               background-color: #248bad; 
+               text-align:center;
+               height: 590px;
+               width: 1335px;         
+               margin: 10px 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="seller">
+          
+         <h1  style="color:#fdfefe;">About Your Car</h1>
+         <br> <br>
+
+        <form action="seller.jsp" method="POST" >    
+            <label style="color:#fdfefe;">Car Brand &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</label>
+            <input type="text" name="pname" placeholder="Enter brand name"/>
+            <br> <br>
+            <label style="color:#fdfefe;">Description &nbsp;&nbsp;&nbsp; &nbsp;</label>
+            <input type="text" name="pdsc" placeholder="few words about your car"/>
+            <br> <br>
+            <label style="color:#fdfefe;">Price &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+            <input type="text" name="pprice" placeholder="enter the price of the car"/>
+            <br><br>
+             <input type="submit" name="Publish" value="Post" >
+             <input type="reset">
+             </form>   
+        
+        </div>
+    </body>
+</html>
+

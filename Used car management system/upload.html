@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>upload image</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style>
+            .pic
+            {
+               background-color: #248bad; 
+               text-align:center;
+               height: 590px;
+               width: 1335px;         
+               margin: 10px 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="pic">
+  <form action="upload.jsp" method="POST" enctype="multipart/form-data" > 
+             <label style="color:#fdfefe;">Upload Car's image </label>
+            <input type="file" name="pimg" accept="image/jpg"/>          
+          <input type="submit" name="upload" value="upload" >
+</form> </div>
+    </body>
+</html>
